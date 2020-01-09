@@ -4,7 +4,7 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <semaphore.h>
-#include "utils.h"
+#include "utilities.h"
 #include "checkin.h"
 
 void logAnswers(int fd){

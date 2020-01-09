@@ -7,6 +7,8 @@
 #include <unistd.h>
 #include <sys/mman.h>
 #include <sys/stat.h>
+#include <sys/types.h>
+#include <pwd.h>
 #include <time.h>
 
 /* Specific global variables */

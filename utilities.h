@@ -1,7 +1,6 @@
 #ifndef __UTILS_H_
 #define __UTILS_H_
 
-/* Colors as always are courtesy of Tyler */
 #define BLUE "\x1b[34m"
 #define GREEN "\x1b[32m"
 #define TEAL "\x1b[36m"

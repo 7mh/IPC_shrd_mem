@@ -5,7 +5,6 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-/* addr + (size-1) & ~8UL */
 
 unsigned long alignAddress(void *addr){
   return (unsigned long) (addr + (sizeof(void*)-1UL)) & ~ 8UL;
